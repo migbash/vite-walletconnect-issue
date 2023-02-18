@@ -1,38 +1,17 @@
-# create-svelte
+# 🔴 ISSUE README
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Simply clone the repository and run:
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
+npm install
 npm run dev -- --open
 ```
 
-## Building
+You will see an `500 Error`, with the `DevTools` console showing the following:
 
-To create a production version of your app:
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/20924663/219874310-25479066-68bf-4144-aab9-26240a3cc861.png">
 
-```bash
-npm run build
-```
+🛠️ FIX!
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Simply comment the two lines under the `FIXME:` on the `src/routes/+page.svelte` file, and save the file and reload the `npm run dev` browser link.
+The error should be gone and all working correctly.

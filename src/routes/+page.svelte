@@ -4,8 +4,9 @@
 
   // FIXME: toggle / (comment/uncomment) these two packages below:
   // NOTE: to remove the target `dev` error of buffer issue.
-  // import { Web3Provider } from "@ethersproject/providers";
-  // import WalletConnectProvider from "@walletconnect/web3-provider";
+  import { Web3Provider } from "@ethersproject/providers";
+  import WalletConnectProvider from "@walletconnect/web3-provider";
+  // CAUSE THE ERROR, just simply by their importing...
 </script>
 
 <h1>Welcome to SvelteKit</h1>
